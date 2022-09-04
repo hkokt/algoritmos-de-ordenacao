@@ -1,7 +1,7 @@
 package controller;
 
 public class Ordena {
-	public void bubblesort(int vet[]) {
+	public int [] bubblesort(int vet[]) {
 		int size = vet.length;
 		int i = 0;
 		int aux = 0;
@@ -14,8 +14,7 @@ public class Ordena {
 				}
 			}
 		}
-		for (i= 0; i < size ; i++) {
-			System.out.println(vet[i]);
-		}		
+		return vet; 
 	}
+
 }
