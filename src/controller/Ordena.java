@@ -2,7 +2,6 @@ package controller;
 
 public class Ordena {
 
-//=========================================================================================	
 	public int[] bubbleSort(int vet[]) {
 		int size = vet.length;
 		int i = 0;
@@ -18,9 +17,7 @@ public class Ordena {
 		}
 		return vet;
 	}
-
-//=========================================================================================
-
+	
 	public int[] mergeSort(int vet[], int ini, int fim) {
 
 		if (ini < fim) {
@@ -31,8 +28,6 @@ public class Ordena {
 		}
 		return vet;
 	}
-
-//=========================================================================================
 
 	private void Intercala(int vet[], int ini, int meio, int fim) {
 		int vetAux[] = new int[vet.length];
@@ -59,7 +54,6 @@ public class Ordena {
 		}
 	}
 
-//=========================================================================================	
 	public int[] quickSort(int vet[], int ini, int fim) {
 		if (fim > ini) {
 			int achaPivo = divideQuick(vet, ini, fim);
